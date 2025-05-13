@@ -44,16 +44,16 @@
     "default_aspect_ratio": "1152*896",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "RealVisXL V5.0": "https://civitai.com/api/download/models/789646?type=Model&format=SafeTensor&size=full&fp=fp32"
+        "RealVisXL V5.0": "https://civitai.com/api/download/models/789646?type=Model&format=SafeTensor&size=full&fp=fp32",
         "RealVisionBabes": "https://civitai.com/api/download/models/604282?type=Model&format=SafeTensor&size=pruned&fp=fp16"
     },
     "embeddings_downloads": {
         "Photography_Tools_By_Stable_Yogi": "https://civitai.com/api/download/models/889075?type=Model&format=SafeTensor"
     },
     "lora_downloads": {
-        "SDXL Film Photography Style": "https://civitai.com/api/download/models/518040?type=Model&format=SafeTensor"
-        "Polyhedron_all SDXL 1.0 / skin, hands, eyes (m/f)": "https://civitai.com/api/download/models/148926?type=Model&format=SafeTensor"
-        "Fashion Photography SDXL and SD1.5": "https://civitai.com/api/download/models/405195?type=Model&format=SafeTensor"
+        "SDXL Film Photography Style": "https://civitai.com/api/download/models/518040?type=Model&format=SafeTensor",
+        "Polyhedron_all SDXL 1.0 / skin, hands, eyes (m/f)": "https://civitai.com/api/download/models/148926?type=Model&format=SafeTensor",
+        "Fashion Photography SDXL and SD1.5": "https://civitai.com/api/download/models/405195?type=Model&format=SafeTensor",
         "Pale Skin SDXL": "https://civitai.com/api/download/models/486320?type=Model&format=SafeTensor"
     },
     "previous_default_models": []
