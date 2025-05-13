@@ -1,26 +1,26 @@
 {
-    "default_model": "juggernautXL_v8Rundiffusion.safetensors",
-    "default_refiner": "None",
+    "default_model": "RealVisXL V5.0",
+    "default_refiner": "RealVisionBabes",
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
             true,
-            "SDXL_FILM_PHOTOGRAPHY_STYLE_V1.safetensors",
-            0.1
+            "SDXL Film Photography Style",
+            0.25
         ],
         [
             true,
-            "None",
+            "Polyhedron_all SDXL 1.0 / skin, hands, eyes (m/f)",
+            0.50
+        ],
+        [
+            true,
+            "Fashion Photography SDXL and SD1.5",
             1.0
         ],
         [
             true,
-            "None",
-            1.0
-        ],
-        [
-            true,
-            "None",
+            "Pale Skin SDXL",
             1.0
         ],
         [
@@ -44,12 +44,18 @@
     "default_aspect_ratio": "1152*896",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "juggernautXL_v8Rundiffusion.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_v8Rundiffusion.safetensors"
+        "RealVisXL V5.0": "https://civitai.com/api/download/models/789646?type=Model&format=SafeTensor&size=full&fp=fp32"
+        "RealVisionBabes": "https://civitai.com/api/download/models/604282?type=Model&format=SafeTensor&size=pruned&fp=fp16"
     },
-    "embeddings_downloads": {},
+    "embeddings_downloads": {
+        "Photography_Tools_By_Stable_Yogi": "https://civitai.com/api/download/models/889075?type=Model&format=SafeTensor"
+    },
     "lora_downloads": {
-        "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors"
+        "SDXL Film Photography Style": "https://civitai.com/api/download/models/518040?type=Model&format=SafeTensor"
         "Polyhedron_all SDXL 1.0 / skin, hands, eyes (m/f)": "https://civitai.com/api/download/models/148926?type=Model&format=SafeTensor"
+        "Fashion Photography SDXL and SD1.5": "https://civitai.com/api/download/models/405195?type=Model&format=SafeTensor"
+        "Pale Skin SDXL": "https://civitai.com/api/download/models/486320?type=Model&format=SafeTensor"
+
     },
     "previous_default_models": [
         "juggernautXL_version8Rundiffusion.safetensors",
